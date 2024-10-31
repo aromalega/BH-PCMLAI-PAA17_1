@@ -16,7 +16,7 @@ Below is the graph on the test accuracies for the models, logistic regression ha
 ![Test accuracy](https://github.com/user-attachments/assets/83edf7ae-69ff-45e6-9258-7b8548d3bf90)
 
 
-Improving the model : We can improve our results of the model by feature engineering, hyperparameter tuning and adjusting performance metrics
+Next Steps to improve the model : We can improve our results of the model by feature engineering, hyperparameter tuning and adjusting performance metrics
 - Feature Engineering : We can eliminate certain variables which might not be contributing to the result like age
 - Hyperparameter Tuning and Grid Search : It seems that the model accuracies have been improved by using hyperparameters and grid search.
 - Performance Metrics : Since there is a significant imbalance in classes (more 'no' than 'yes' responses), we should consider using metrics like F1-score, precision, and recall, which are more balanced than accuracy.
