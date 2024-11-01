@@ -17,8 +17,8 @@ Below is the graph on the test accuracies for the models, logistic regression ha
 
 
 Next Steps to improve the model : We can improve our results of the model by feature engineering, hyperparameter tuning and adjusting performance metrics
-- Feature Engineering : We can eliminate certain variables which might not be contributing to the result like age
-- Hyperparameter Tuning and Grid Search : It seems that the model accuracies have been improved by using hyperparameters and grid search.
+- Feature Engineering : We can eliminate certain variables which might not be contributing to the result like age.
+- Hyperparameter Tuning and Grid Search : There has been a slight increase in accuracy scores for KNN, Decisison Tree and SVM after Hyperparameter tuning and Grid Search.
 - Performance Metrics : Since there is a significant imbalance in classes (more 'no' than 'yes' responses), we should consider using metrics like F1-score, precision, and recall, which are more balanced than accuracy.
 
-Conclusion : Logistic Regression gave more accurate results than other models and SVC took the most amount of time to run.
+Conclusion : Initially Logistic Regression gave more accurate results than other models and SVC took the most amount of time to run. But after Hyperparameter tuning and Grid Search, Decision Tree has the highest accuracy.
